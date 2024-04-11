@@ -20,4 +20,11 @@ public class CalcTest {
         newCalc = new Calc();
         assertEquals(24, newCalc.subtract(30, 6));
     }
+
+    @Test
+    void testMultiply()
+    {
+        newCalc = new Calc();
+        assertEquals(72, newCalc.multiply(9, 8));
+    }
 }
