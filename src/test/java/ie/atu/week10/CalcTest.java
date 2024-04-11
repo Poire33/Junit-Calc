@@ -27,4 +27,11 @@ public class CalcTest {
         newCalc = new Calc();
         assertEquals(72, newCalc.multiply(9, 8));
     }
+
+    @Test
+    void testDivide()
+    {
+        newCalc = new Calc();
+        assertEquals(9, newCalc.divide(81, 9));
+    }
 }
